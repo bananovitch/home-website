@@ -4,7 +4,7 @@ title: DIY
 permalink: /diy/
 ---
 
-# DIY projects
+<h1 class="page-title"> DIY</h1>
 
 <div>
   {% for post in site.categories.diy %}

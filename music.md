@@ -4,7 +4,7 @@ title: music
 permalink: /music/
 ---
 
-# Music
+<h1 class="page-title"> Muzyka</h1>
 
 <div>
   {% for post in site.categories.music %}

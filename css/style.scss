@@ -67,10 +67,18 @@ h6 {
 
 .post {
     width:100%;
-    border: 5px solid black;
+    border-left: 5px solid black;
     margin-bottom: 8px;
-    padding:8px;
+    &:hover {
+        background: $menu-fill;
+        a, a:visited {
+            color: #fff;
+        }
+    }
     a {
+        height: 40px;
+        line-height: 40px;
+        padding:8px;
         display: block;
     }
 }

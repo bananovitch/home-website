@@ -7,8 +7,7 @@ title: Piotr Romanowski | strona domowa
 <h1 class="page-title">Piotr Romanowski</h1>
 
 ## Programowanie / Muzyka / DIY / Inne
-
-Cześć! Nazywam się Piotr Romanowski, a to jest moja strona domowa. 
+ 
 
 <div>
   {% for post in site.posts %}
