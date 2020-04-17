@@ -1,10 +1,76 @@
 ---
 # The main sass file
 ---
+
+$height: 36px;
+$menu-fill: #222;
+
 body {
     font-family: Helvetica, sans-serif;
 }
 
-ul > li {
-    list-style:none;
+ul {
+    margin:0;
+    padding:0;
+    li {
+        list-style:none;
+        
+    }
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+.navbar {
+    ul {
+        li {
+            width: 100%;
+            height:$height;
+            line-height:$height;
+            font-size: $height;
+            margin-bottom:5px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    }
+    a, a:visited {
+        display: block;
+        color:$menu-fill;
+        &:hover {
+            color: white;
+            background-color: $menu-fill;
+        }
+    }
+}
+
+.page-title {
+    font-size:56px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width:800px;
+    margin:0 auto;
+}
+
+.post {
+    width:100%;
+    border: 5px solid black;
+    margin-bottom: 8px;
+    padding:8px;
+    a {
+        display: block;
+    }
 }

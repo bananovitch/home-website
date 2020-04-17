@@ -4,16 +4,16 @@
 layout: default
 title: Piotr Romanowski | strona domowa
 ---
-# Piotr Romanowski
+<h1 class="page-title">Piotr Romanowski</h1>
 
-Programowanie / Muzyka / DIY / Inne
+## Programowanie / Muzyka / DIY / Inne
 
 Cześć! Nazywam się Piotr Romanowski, a to jest moja strona domowa. 
 
-<ul>
+<div>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <section class="post">
+      <h2> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
+    </section>
   {% endfor %}
-</ul>
+</div>

@@ -6,10 +6,10 @@ permalink: /music/
 
 # Music
 
-<ul>
+<div>
   {% for post in site.categories.music %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <section class="post">
+      <h2> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
+    </section>
   {% endfor %}
-</ul>
+</div>
