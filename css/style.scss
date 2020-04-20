@@ -2,25 +2,26 @@
 # The main sass file
 ---
 
-$height: 36px;
+$height: 3.6rem;
 $menu-fill: #222;
+
+html {
+    font-size: 62.5%;
+}
 
 body {
     font-family: Helvetica, sans-serif;
+    font-size:1.6rem;
 }
 
 ul {
     margin:0;
     padding:0;
-    li {
-        list-style:none;
-        
-    }
 }
 
 a, a:visited {
     text-decoration: none;
-    color:black;
+    color:#E54B4B
 }
 
 h1,
@@ -39,9 +40,10 @@ h6 {
             height:$height;
             line-height:$height;
             font-size: $height;
-            margin-bottom:5px;
+            margin-bottom:0.5rem;
             text-transform: uppercase;
             font-weight: 500;
+            list-style:none;
         }
     }
     a, a:visited {
@@ -54,21 +56,44 @@ h6 {
     }
 }
 
-.page-title {
-    font-size:56px;
-    font-weight: 500;
+h1 {
+    font-size:5.6rem;
     text-transform: uppercase;
+    
+}
+
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+}
+
+.page-title {
+    background: $menu-fill;
+    color: #fff;
 }
 
 .container {
-    max-width:800px;
+    max-width:80rem;
     margin:0 auto;
 }
 
 .post {
     width:100%;
-    border-left: 5px solid black;
-    margin-bottom: 8px;
+    border-bottom: 0.5rem solid black;
+    margin-bottom: 0.8rem;
     &:hover {
         background: $menu-fill;
         a, a:visited {
@@ -76,9 +101,10 @@ h6 {
         }
     }
     a {
-        height: 40px;
-        line-height: 40px;
-        padding:8px;
+        padding:1.6rem;
         display: block;
+    }
+    h2 {
+        margin: 0;
     }
 }

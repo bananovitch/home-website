@@ -2,25 +2,15 @@
 title: O mnie
 permalink: /about/
 ---
-# O mnie i o tej stronie
+<h1 class="page-title"> O mnie i o tej stronie</h1>
 
 ## TL;DR
 
-Cześć, jestem Piotrek. Pracuję jako programista. Potrafię pisać **aplikacje w Reakcie**, robię ładne wykresy w **D3.js** , umiem napisać też brudny skrypt w **Pythonie** który zautomatyzuje coś monotonnego lub pobierze skądś dane. 
+Cześć, jestem Piotrek. Pracuję jako programista. Potrafię pisać **aplikacje w Reakcie**, robię ładne wykresy w **D3.js** , umiem napisać też skrypt w **Pythonie** który zautomatyzuje coś monotonnego lub pobierze skądś dane. 
 
 Jeśli chodzi o moją bardziej ludzkie oblicze, pasjonuję się **muzyką** i ostatnio zajmuję się budowaniem różnych rzeczy które wydają dźwięki bądź nie. 
 
 Strona działa minikomputerku **Raspberry Pi** stojącym w moim mieszkaniu. 
-
-Filozofia mi przyświecająca: 
-* [indieweb](https://indieweb.org/)
-* [homebrew server](https://homebrewserver.club)
-
-## Cześć!
-
-Lubię próbować nowych rzeczy. Zwłaszcza takich, które wydają się w danym momencie niewyobrażalnie trudne. 
-
-Kiedyś taką rzeczą było programowanie. Jestem absolwentem prawa na Uniwersytecie Wrocławskim, jednak praca w kancelarii okazała się nie dla mnie. Pamiętam jak w któryś wieczór bożonarodzeniowy trafiłem na (wówczas dopiero raczkującą) stronę Codecademy. Kursy były stworzone dla osób nie mających zielonego pojęcia o programowaniu, czyli takich jak ja. O dziwo okazało się to całkiem wciągające. Po tym jak skończyłem pracę w kancelarii postanowiłem spróbować swoich sił w IT. Nie było to łatwe, ale nawet się udało, utrzymuję się obecnię z pracy programisty, co jest dość komfortowe.
 
 ## O tej stronie
 
@@ -28,10 +18,18 @@ Swego czasu byłem *bardzo* aktywny w mediach społecznościowych, jednak od kil
 
 Miałem poczucie, że cena "darmowych" serwisów społecznościowych jest zbyt wysoka, by wrzucać tam wszystko. Nie znaczy to oczywiście, że z nich nie korzystam - jednak coraz mniej na nich udostepniam.
 
-Mimo wszystko jednak lubię dzielić się tym, co robię. Chciałem mieć swoje miejsce w sieci. I trafiłem, za pośrednictwem wspaniałej [strony Charlotte Owens](https://www.sonniesedge.co.uk/) na pojęcie [indie web](https://indieweb.org/why).
+Jednak chciałem mieć swoje miejsce w sieci. I tak przez przypadek trafiłem, za pośrednictwem wspaniałej [strony Charlotte Owens](https://www.sonniesedge.co.uk/) na pojęcie [indie web](https://indieweb.org/why).
 
-Otóż jest to sieć ludzi, którzy postanowili szukać alternatywy dla korporacyjnych mediów społecznościowych, i znaleźli ją w starych dobrych stronach internetowych. Hostowanych samodzielnie. Własnoręcznie tworzonych. Twoje treści należą do Ciebie. Jak chcesz je usunąć, to usuwasz. Możesz w pełni spersonalizować swoją witrynę, zrobić ją tak beznadziejną lub spektakularną jak tylko chcesz. Motyla noga, to jest przecież to czego szukałem! I jest to stara dobra strona internetowa, z czasów, gdy jeszcze mediów społecznościowych i całego ich bagażu jeszcze nie było.
+Otóż jest to sieć ludzi, którzy postanowili szukać alternatywy dla korporacyjnych mediów społecznościowych, i znaleźli ją w starych dobrych stronach internetowych. To rozwiązanie wydało się oczywiste i jednocześnie genialne. Udostepniam w ten sposób tylko to co chcę, i komu chcę. I tak powstała ta strona. 
 
-Postanowiłem pójść krok dalej. Skoro mam swoją stronę, dlaczego nie być własną hostownia? Nie pamiętam gdzie, ale widziałem że skromny komputer Raspberry PI jest wystarczający dla takich rozwiązań. I tak oto stałem się właścicielem tego minikomputerka. Strona, którą czytasz fizycznie znajduje się na karcie pamięci w moim mieszkaniu. 
+## Jekyll
 
-Rozwiązanie ma swoje wady i zalety, jak zawsze. Do zalet niewątpliwie należy pełna kontrola nad swoją stroną, wadą oczywiście konieczność zadbania o prawidłową konfigurację i bezpieczeństwo. Jak dotychczas konfiguracja Pi okazywała się bardzo prosta. Zobaczymy jak rozwiązanie to sprawdzi się w praktyce.
+Silnik na którym zbudowana jest strona to [Jekyll](https://www.jekyllrb.com). Jest to generator stron statycznych, który zamienia pliki z tekstem i kodem na działającą stronę HTML którą potem mogę udostępnić za pomocą dowolnego serwera HTTP. Dzięki temu mam działajacą stronę bez konieczności instalowania bazy danych, WordPressa etc. Specyficzne rozwiązanie, ale jak na razie spisuje się znakomicie. Cenię sobie jego prostotę. 
+
+## Domowy hosting
+
+Strona jest udostępniana ze skromnego komputerka Raspberry Pi stojącego w moim mieszkaniu. Zdecydowałem się na taką formę po trafieniu na stronę [homebrew server club](https://www.homebrewserver.club).
+
+## Brutalizm
+
+Brutalizm w architekturze to specyficzny styl charakteryzujący się surowością wykorzystywanych materiałów. W stosunku do stron internetowych ma on zastosowanie od około 2014 r. i cechuje się brakiem poszanowania dla oklepanych wzorców. Często wynika to albo ze stuprocentowej koncentracji na użyteczności albo jej całkowitego braku kosztem uzyskania niesztampowego efektu wizualnego. Czy można wyobrazić sobie lepsze dopełnienie domowej statycznej strony hostowanej ze skromnego Raspberry niż brutalistyczny design? Po więcej inspiracji polecam stronę [Brutalist Websites](https://brutalistwebsites.com).
