@@ -4,9 +4,11 @@ title: Generator Dziwnych Dźwięków
 categories: diy
 ---
 
+![weird sound generator](/img/mfos-weird-sound-generator-min.jpg)
+
 Ładnie wygląda, nieco gorzej brzmi.
 
-Stawiam, że każdy, kto chce zbudować własny syntezator trafi prędzej czy poźniej na stronę Raya Wilsona [Music from Outer Space](http://musicfromouterspace.com/). Strona ta, choć nie wygląda powalajaco to nieprzebrana skarbnica wiedzy i pomysłów z dziedziny audio. Jest tam też kilka projektów, które autor poleca dla początkujacych i jest nim między innymi Weird Sound Generator, czyli generator dziwnych dźwięków. 
+Stawiam, że każdy, kto chce zbudować własny syntezator trafi prędzej czy poźniej na stronę Raya Wilsona [Music from Outer Space](http://musicfromouterspace.com/). Strona ta, choć nie wygląda powalajaco to nieprzebrana skarbnica wiedzy i pomysłów z dziedziny audio. Jest tam też kilka projektów, które autor poleca dla początkujacych i jest nim między innymi Weird Sound Generator, czyli generator dziwnych dźwięków.
 
 W założeniu jest to dość proste urządzenie, ma jednak dużo pokręteł i przełączników pozwalających tworzyć efekty dźwiękowe rodem z filmów science fiction. Dema, które można znaleźć w sieci brzmią na serio zachęcająco, więc postanowiłem spróbować swoich sił w tym przedsięwzięciu.
 

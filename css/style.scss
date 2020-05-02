@@ -6,22 +6,23 @@ $height: 3.6rem;
 $menu-fill: #222;
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    font-size:1.6rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
 
 ul {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-a, a:visited {
-    text-decoration: none;
-    color:#E54B4B
+a,
+a:visited {
+  text-decoration: none;
+  color: #e54b4b;
 }
 
 h1,
@@ -30,81 +31,85 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 500;
-}
-
-.navbar {
-    ul {
-        li {
-            width: 100%;
-            height:$height;
-            line-height:$height;
-            font-size: $height;
-            margin-bottom:0.5rem;
-            text-transform: uppercase;
-            font-weight: 500;
-            list-style:none;
-        }
-    }
-    a, a:visited {
-        display: block;
-        color:$menu-fill;
-        &:hover {
-            color: white;
-            background-color: $menu-fill;
-        }
-    }
+  font-weight: 500;
+  word-wrap: break-word;
 }
 
 h1 {
-    font-size:5.6rem;
-    text-transform: uppercase;
-    
+  font-size: 5.6rem;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 h3 {
-    font-size: 3.2rem;
+  font-size: 3.2rem;
 }
 
 h4 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
-
 p {
-    font-size: 1.6rem;
-    line-height: 1.5;
-    
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  ul {
+    li {
+      width: 100%;
+      height: $height;
+      line-height: $height;
+      font-size: $height;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      list-style: none;
+    }
+  }
+  a,
+  a:visited {
+    display: block;
+    color: $menu-fill;
+    &:hover {
+      color: white;
+      background-color: $menu-fill;
+    }
+  }
 }
 
 .page-title {
-    background: $menu-fill;
-    color: #fff;
+  background: $menu-fill;
+  color: #fff;
 }
 
 .container {
-    max-width:80rem;
-    margin:0 auto;
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .post {
-    width:100%;
-    border-bottom: 0.5rem solid black;
-    margin-bottom: 0.8rem;
-    &:hover {
-        background: $menu-fill;
-        a, a:visited {
-            color: #fff;
-        }
+  width: 100%;
+  border-bottom: 0.5rem solid black;
+  margin-bottom: 0.8rem;
+  &:hover {
+    background: $menu-fill;
+    a,
+    a:visited {
+      color: #fff;
     }
-    a {
-        padding:1.6rem;
-        display: block;
-    }
-    h2 {
-        margin: 0;
-    }
+  }
+  a {
+    padding: 1.6rem;
+    display: block;
+  }
+  h2 {
+    margin: 0;
+  }
 }
