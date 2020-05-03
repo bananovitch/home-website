@@ -116,7 +116,8 @@ img {
 
 .post {
   width: 100%;
-  border-bottom: 0.5rem solid black;
+  border: 0.1rem solid black;
+  padding: 1.6rem;
   margin-bottom: 0.8rem;
   &:hover {
     background: $menu-fill;
@@ -131,6 +132,7 @@ img {
   }
   h2 {
     margin: 0;
+    padding: 0;
   }
 }
 
