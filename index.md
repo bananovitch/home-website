@@ -4,15 +4,13 @@
 layout: default
 title: Piotr Romanowski | strona domowa
 ---
+
 <h1 class="page-title">Piotr Romanowski</h1>
 
 ## Programowanie / Muzyka / DIY / Inne
- 
 
 <div>
   {% for post in site.posts %}
-    <section class="post">
-      <h2> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
-    </section>
+    {% include post.html %}
   {% endfor %}
 </div>
