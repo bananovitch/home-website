@@ -8,6 +8,8 @@ categories: diy
 
 Ach, pierwsze przygody z lutownicą.
 
+<!--more-->
+
 Atari Punk Console to prosty układ od którego zaczyna się często przygoda z chałupniczym budowaniem sprzętów audio. Prosta budowa - dwa układy scalone, kilka kondensatorów, dwa potencjometry, gniazdo audio. Rezultatem jest prosty przyrząd generujący fale dźwiękowe o okołoprostokątnych przebiegach. Brzmi to dość okropnie.
 
 Nie ukończyłbym tego, gdyby nie pomoc mojego brata, za co mu serdecznie dziękuję.

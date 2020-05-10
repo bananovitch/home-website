@@ -1,6 +1,9 @@
 <section class="post">
-  <a href="{{ post.url }}">
-    <h2>{{ post.title }}</h2>
-    <p>{{post.excerpt}}</p>
-  </a>
+    <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+        <p>
+            {{post.date | date: "%d/%m/%Y"}}
+        </p>
+        <p>{{post.excerpt}}</p>
+    </a>
 </section>

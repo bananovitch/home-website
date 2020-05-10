@@ -10,7 +10,9 @@ Projekt, który zajął mi stanowczo za dużo czasu.
 
 Stwierdziłem, że jak konstruuję różne urządzenia audio, z pewnością w pewnym momencie przyda mi się mikser. Co to właściwie robi? Ano bierze cztery różne sygnały audio (np. radio, syntezator, mikrofon etc) i sumuje je do jednego sygnału, który następnie sobie możemy nagrać.
 
-Schematy, które znajdowałem w internecie wyglądały z reguły bardzo podobnie: gniazda wejściowe, rezystor, wzmacniacz operacyjny. Ten, który widzicie na zdjęciu zbudowany jest na podstawie schematu ze strony Syntherjack ([link](https://syntherjack.net/portable-audio-mixer/)).
+<!--more-->
+
+Schematy, które znajdowałem w internecie wyglądały z reguły bardzo podobnie: gniazda wejściowe, rezystor, wzmacniacz operacyjny. Ten, który widzicie na zdjęciu zbudowany jest na podstawie schematu ze strony Syntherjack ([tutaj do obejrzenia](https://syntherjack.net/portable-audio-mixer/)).
 
 Przy budowie napotkałem jednak kilka problemów (oprócz standardowych trudności z lutowaniem).
 

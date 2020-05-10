@@ -4,8 +4,11 @@
 
 @import "reset";
 
+$pear: #dceb0c;
+$dark-pear: #bfcc0a;
 $height: 3.6rem;
-$menu-fill: #222;
+$menu-fill: $pear;
+$link-color: $dark-pear;
 
 html {
   font-size: 62.5%;
@@ -24,7 +27,7 @@ ul {
 a,
 a:visited {
   text-decoration: none;
-  color: #e54b4b;
+  color: $link-color;
 }
 
 h1,
@@ -35,6 +38,7 @@ h5,
 h6 {
   font-weight: 500;
   word-wrap: break-word;
+  margin-bottom: 1.6rem;
 }
 
 h1 {
@@ -56,6 +60,7 @@ h4 {
 p {
   font-size: 1.6rem;
   line-height: 1.5;
+  margin-bottom: 1.6rem;
 }
 
 img {
@@ -70,7 +75,6 @@ img {
       line-height: $height;
       font-size: $height;
       margin-bottom: 0.5rem;
-      text-transform: uppercase;
       font-weight: 500;
       list-style: none;
     }
@@ -78,17 +82,15 @@ img {
   a,
   a:visited {
     display: block;
-    color: $menu-fill;
+    color: black;
     &:hover {
-      color: white;
-      background-color: $menu-fill;
+      background-color: $pear;
     }
   }
 }
 
 .page-title {
-  background: $menu-fill;
-  color: #fff;
+  background: $pear;
 }
 
 .container {
@@ -120,15 +122,16 @@ img {
   width: 100%;
   border: 0.1rem solid black;
   padding: 1.6rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 2.4rem;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
   &:hover {
-    background: $menu-fill;
-    a,
-    a:visited {
-      color: #fff;
-    }
+    background: $pear;
   }
-  a {
+  a,
+  a:visited {
+    color: black;
     padding: 1.6rem;
     display: block;
   }

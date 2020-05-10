@@ -1,4 +1,3 @@
-
 title: Piotr Romanowski
 email: piotr.michal.romanowski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -11,7 +10,8 @@ github_username: bananovitch
 plugins:
   - jekyll-feed
 
-permalink: /:categories/:title/
+permalink:
+  /:categories/:title/
   # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -31,15 +31,14 @@ permalink: /:categories/:title/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+excerpt_separator: <!--more-->
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" #default layout for everything
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "" # post layout
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
