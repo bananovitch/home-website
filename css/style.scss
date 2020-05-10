@@ -4,11 +4,18 @@
 
 @import "reset";
 
+@mixin boxShadow() {
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
 $pear: #dceb0c;
 $dark-pear: #bfcc0a;
 $height: 3.6rem;
 $menu-fill: $pear;
 $link-color: $dark-pear;
+$padding: 1.6rem;
 
 html {
   font-size: 62.5%;
@@ -17,6 +24,7 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1.6rem;
+  padding: $padding;
 }
 
 ul {
@@ -89,13 +97,15 @@ img {
   }
 }
 
-.page-title {
-  background: $pear;
-}
-
 .container {
   max-width: 80rem;
   margin: 0 auto;
+}
+
+.page-title {
+  background: $pear;
+  padding: $padding;
+  @include boxShadow();
 }
 
 .video-wrapper {
@@ -119,13 +129,11 @@ img {
 }
 
 .post {
+  @include boxShadow();
   width: 100%;
   border: 0.1rem solid black;
-  padding: 1.6rem;
+  padding: $padding;
   margin-bottom: 2.4rem;
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
   &:hover {
     background: $pear;
   }
@@ -138,6 +146,7 @@ img {
   h2 {
     margin: 0;
     padding: 0;
+    line-height: 1.2;
   }
 }
 
