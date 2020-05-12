@@ -8,9 +8,7 @@ permalink: /music/
 
 Muzyczka którą nagrałem. Na razie skromnie.
 
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PDgQ9s_nxuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include video.html url="https://www.youtube.com/embed/PDgQ9s_nxuE" %}
 
 <div>
   {% for post in site.categories.music %}

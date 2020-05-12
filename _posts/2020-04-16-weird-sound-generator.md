@@ -1,7 +1,9 @@
 ---
 date: 2020-04-14 12:22:26 +0200
 title: Generator Dziwnych Dźwięków
+cover: /img/mfos-weird-sound-generator-min.jpg
 categories: diy
+description: "Ładnie wygląda, nieco gorzej brzmi."
 ---
 
 ![weird sound generator](/img/mfos-weird-sound-generator-min.jpg)
@@ -16,6 +18,10 @@ W założeniu jest to dość proste urządzenie, ma jednak dużo pokręteł i pr
 
 Wytrawiłem płytkę używając nadsiarczanu sodu. Niefajna substancja a i sam proces też do najprostszych nie należy. Wymaga dużo zabawy, żeby najpierw uzyskać ładną płytkę, później ją prawidłowo nawiercić i przylutować komponenty, jednak jakimś cudem mi się udało.
 
+![weird sound generator pcb](/img/mfos-pcb.jpg)
+
 Mój WSG działa, jednak nie brzmi tak fajnie jak te z youtube. Stawiam, że jest to wina tego, że poskąpiłem pieniędzy na komponenty dobrej jakości: potencjometry "pływają", trzeszczą, przeskakują, tanie rezystory i kondensatory dodają dużo szumu. Samo okablowanie też jest bardzo skomplikowane (projekty Raya niestety cechuje ogólnie ta właściwość).
 
 To, z czego jestem jednak zadowolony to obudowa. Jest to gotowa obudowa firmy Kradex, którą kupiłem w lokalnym sklepie. Prezentuje się elegancko i jest z miękkiego plastiku który łatwo można nawiercić.
+
+{% include video.html url="https://www.youtube.com/embed/F75INoVPn1U" %}

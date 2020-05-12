@@ -2,10 +2,8 @@ title: Piotr Romanowski
 email: piotr.michal.romanowski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Programowanie / Muzyka / DIY
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: MrBananovitch
-github_username: bananovitch
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://bananovitch.pl # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed

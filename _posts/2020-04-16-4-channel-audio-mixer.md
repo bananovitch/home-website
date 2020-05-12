@@ -2,6 +2,8 @@
 title: Czterokanałowy mikser audio
 date: 2020-04-16 12:12:45 +0200
 categories: diy
+cover: /img/4-channel-mixer-min.jpg
+descrption: "Projekt, który zajął mi stanowczo za dużo czasu."
 ---
 
 ![4 channel mixer](/img/4-channel-mixer-min.jpg)
@@ -25,3 +27,7 @@ Kolejnym problemem okazała się obudowa. Miałem już działający układ zło�
 Do pudełka potrzebowałem panelu, i tutaj wyśmienicie sprawdził się materiał FR4, z którego robione są płytki drukowane. Można go kupić w wersji niepokrytej miedzią. Jest twardy, sztywny, a jednocześnie można go łatwo przeciąć i wywiercić w nim dziurę. Wywiercić dziurę w równym rzędzie to jednak całkiem inna historia, ale hej, to dopiero drugi sprzęt który buduję!
 
 Pomimo tego, że rezultat wygląda bardzo topornie, to jesto sprzęt którego z chęcią używam. Jak na razie jest niezawodny i robi swoją robotę: mogę tworzyć kompozycje przy użyciu 4 instrumentów na raz. Nieco szumi, ale jednak to dodaje nagrywkom przy jego użyciu sporo charakteru.
+
+Poniżej można znaleźć kawałek który nagrałem przy użyciu tego miksera. Użyłem trzech walkmanów odtwarzających kasety przerobione na pętle.
+
+{% include video.html url="https://www.youtube.com/embed/PDgQ9s_nxuE" %}
