@@ -87,13 +87,21 @@ img {
       list-style: none;
     }
   }
-  a,
+  a:link,
   a:visited {
     display: block;
     color: black;
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $pear;
     }
+  }
+}
+
+@media (hover: none) {
+  a:link,
+  a:visited {
+    background-color: none;
   }
 }
 

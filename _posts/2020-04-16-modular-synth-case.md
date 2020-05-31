@@ -1,8 +1,11 @@
 ---
 title: Syntezator modularny - lub jego zalążek
 date: 2020-04-14 12:45:26 +0200
+cover: /img/modular-case-min.jpg
 categories: diy
 ---
+
+![modular case](/img/modular-case-min.jpg)
 
 Chociaż nie wydaje (jeszcze) dźwięków, to chyba jak na razie mój ulubiony projekt.
 

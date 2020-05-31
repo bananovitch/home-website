@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Piotr Romanowski | strona domowa
+cover: /img/pi2min.jpg
 description: Strona domowa na którą wrzucam swoją muzykę, zrób-to-samy i okołoprogramistyczne teksty
 ---
 
