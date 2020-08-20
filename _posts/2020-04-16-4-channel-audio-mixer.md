@@ -3,7 +3,7 @@ title: Czterokanałowy mikser audio
 date: 2020-04-16 12:12:45 +0200
 categories: diy
 cover: /img/4-channel-mixer-min.jpg
-descrption: "Projekt, który zajął mi stanowczo za dużo czasu."
+description: "Projekt, który zajął mi stanowczo za dużo czasu."
 ---
 
 ![4 channel mixer](/img/4-channel-mixer-min.jpg)
