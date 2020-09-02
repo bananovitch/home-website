@@ -6,7 +6,6 @@ cover: /img/atari-punk-console-2-min.jpg
 description: "Ach, pierwsze przygody z lutownicą."
 ---
 
-![atari punk console](/img/atari-punk-console-2-min.jpg)
 
 Ach, pierwsze przygody z lutownicą.
 

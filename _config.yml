@@ -7,6 +7,8 @@ url: https://bananovitch.pl # the base hostname & protocol for your site, e.g. h
 
 plugins:
   - jekyll-feed
+  - jemoji
+
 
 permalink:
   /:categories/:title/

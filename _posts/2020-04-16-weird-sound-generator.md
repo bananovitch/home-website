@@ -6,8 +6,6 @@ categories: diy
 description: "Ładnie wygląda, nieco gorzej brzmi."
 ---
 
-![weird sound generator](/img/mfos-weird-sound-generator-min.jpg)
-
 Ładnie wygląda, nieco gorzej brzmi.
 
 <!--more-->

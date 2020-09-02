@@ -4,8 +4,8 @@ layout: post
 excerpt: "Zepsułem blog. I napisałem prostą aplikacji w React.js"
 comments: true
 categories: code
-cover: "/img/posts/2018/02/react-2.jpg"
-alt: "code"
+#cover: "/img/posts/2018/02/react-2.jpg"
+#alt: "code"
 ---
 
 <p>Krok po kroku kontynuuję nieocenioną książkę Robina Wierucha. Miałem pewien moment zwątpienia związany pewnie z dużą ilością nowej wiedzy do przyswojenia, ale po nim nastąpiło pewnego rodzaju przejaśnienie. Mam wrażenie, że zaczynam trochę rozumieć, o co chodzi w tej bibliotece, i powoli elementy układanki zaczynają się układać w całość.</p>

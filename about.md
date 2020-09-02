@@ -11,7 +11,6 @@ Cześć, jestem Piotrek. Pracuję jako programista. Potrafię pisać **aplikacje
 
 Jeśli chodzi o moją bardziej ludzkie oblicze, pasjonuję się **muzyką** i ostatnio zajmuję się budowaniem różnych rzeczy które wydają dźwięki bądź nie.
 
-Strona działa minikomputerku **Raspberry Pi** stojącym w moim mieszkaniu.
 
 ## O tej stronie
 
@@ -31,8 +30,9 @@ Silnik na którym zbudowana jest strona to [Jekyll](https://www.jekyllrb.com). J
 
 ![my server](/img/pi2min.jpg)
 
-Strona jest udostępniana ze skromnego komputerka Raspberry Pi stojącego w moim mieszkaniu. Zdecydowałem się na taką formę po trafieniu na stronę [homebrew server club](https://www.homebrewserver.club).
+Strona ~~działa~~ przez jakiś czas działała na minikomputerku **Raspberry Pi** stojącym w moim mieszkaniu. O tym eksperymencie można przeczytaj w [tym poście]({% post_url 2020-09-01-home-hosting-review %}).
+
 
 ## Brutalizm
 
-Brutalizm w architekturze to specyficzny styl charakteryzujący się surowością wykorzystywanych materiałów. W stosunku do stron internetowych ma on zastosowanie od około 2014 r. i cechuje się brakiem poszanowania dla oklepanych wzorców. Często wynika to albo ze stuprocentowej koncentracji na użyteczności albo jej całkowitego braku kosztem uzyskania niesztampowego efektu wizualnego. Czy można wyobrazić sobie lepsze dopełnienie domowej statycznej strony hostowanej ze skromnego Raspberry niż brutalistyczny design? Po więcej inspiracji polecam stronę [Brutalist Websites](https://brutalistwebsites.com).
+Brutalizm w architekturze to specyficzny styl charakteryzujący się surowością wykorzystywanych materiałów. W stosunku do stron internetowych ma on zastosowanie od około 2014 r. i cechuje się brakiem poszanowania dla oklepanych wzorców. Często wynika to albo ze stuprocentowej koncentracji na użyteczności albo jej całkowitego braku kosztem uzyskania niesztampowego efektu wizualnego. Po więcej inspiracji polecam stronę [Brutalist Websites](https://brutalistwebsites.com).

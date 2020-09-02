@@ -6,8 +6,6 @@ categories: diy
 description: "Chociaż nie wydaje (jeszcze) dźwięków, to chyba jak na razie mój ulubiony projekt."
 ---
 
-![modular case](/img/modular-case-min.jpg)
-
 Chociaż nie wydaje (jeszcze) dźwięków, to chyba jak na razie mój ulubiony projekt.
 
 <!--more-->

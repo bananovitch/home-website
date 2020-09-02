@@ -4,8 +4,8 @@ layout: post
 excerpt: "Na tym etapie zaczynam poważnie wątpić w sens całego przedsięwzięcia i rozważam porzucenie. A to dopiero pierwszy dzień!"
 comments: true
 categories: code
-cover: "/img/posts/2017/code-cover.jpg"
-alt: "code"
+#cover: "/img/posts/2017/code-cover.jpg"
+#alt: "code"
 ---
 
 

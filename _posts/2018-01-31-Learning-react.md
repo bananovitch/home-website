@@ -4,8 +4,8 @@ layout: post
 excerpt: "Początek roku był bardzo pracowity. Ale nawet udalo mi się zaczać uczyć. To już coś!"
 comments: true
 categories: code
-cover: "/img/posts/2018/02/learn-react.jpg"
-alt: "shocked boy"
+#cover: "/img/posts/2018/02/learn-react.jpg"
+#alt: "shocked boy"
 ---
 
 <p>No tak, minął miesiąc i już po postanowieniu noworocznym :)</p>

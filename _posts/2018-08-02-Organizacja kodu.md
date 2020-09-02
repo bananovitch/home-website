@@ -3,8 +3,8 @@ title: Posprzątajmy trochę swój kod.
 layout: post
 comments: true
 categories: code
-cover: "/img/posts/2018/08/tools.jpg"
-alt: "narzędzia"
+#cover: "/img/posts/2018/08/tools.jpg"
+#alt: "narzędzia"
 excerpt: ".. czyli o tym jak podzielić swój kod na moduły."
 ---
 

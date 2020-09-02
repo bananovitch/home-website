@@ -5,8 +5,8 @@ excerpt_separator:
 excerpt: czyli o tym jak pokochałem Pythona
 comments: true
 categories: code
-cover: "/img/posts/2018/09/python.jpg"
-alt: "a green snake"
+#cover: "/img/posts/2018/09/python.jpg"
+#alt: "a green snake"
 ---
 
 <p>Stanąłem niedawno przed problemem, na ile mogę wycenić swoje auto. Ponieważ gdzieś w międzyczasie czytałem sobię podręcznik Pythona <a href="http://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a> (którą gorąco polecam, jest za darmo!) stwierdziłem, że jest to idealny moment by użyć świeżo zdobytą wiedzę i napisać sobie skrypt który pobierze mi dane na temat wszystkich dostępnych ofert.</p>

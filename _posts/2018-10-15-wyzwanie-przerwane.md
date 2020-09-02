@@ -4,8 +4,8 @@ layout: post
 excerpt: "Zawieszam prace nad sejmatorem na jakiś czas."
 comments: true
 categories: [blog, code]
-cover: "/img/posts/2018/10/sunset.jpg"
-alt: "sunset"
+#cover: "/img/posts/2018/10/sunset.jpg"
+#alt: "sunset"
 ---
 
 No cóż, przerwałem wyzwanie 21 dni kodu. Różne zdarzenia się na to złożyły - standardowy brak czasu, ale też i to, że od jakiegoś czasu korzystanie z API było dość frustrujące.

@@ -4,8 +4,8 @@ layout: post
 excerpt_separator: 
 comments: true
 categories: [code, blo]
-cover: "/img/posts/2017/synth-cover.jpg"
-alt: "synthesizer"
+#cover: "/img/posts/2017/synth-cover.jpg"
+#alt: "synthesizer"
 ---
 <p>Z ogromną satysfakcją ogłaszam moje nowe przedsięwzięcie programistyczno - muzyczne, tzn. przez 12 najbliższych tygodni będę tworzył instrument muzyczny, a swoje przygody związanych z tym wyzwaniem będę opowiadał na blogu. </p>
 

@@ -6,8 +6,6 @@ cover: /img/4-channel-mixer-min.jpg
 description: "Projekt, który zajął mi stanowczo za dużo czasu."
 ---
 
-![4 channel mixer](/img/4-channel-mixer-min.jpg)
-
 Projekt, który zajął mi stanowczo za dużo czasu.
 
 Stwierdziłem, że jak konstruuję różne urządzenia audio, z pewnością w pewnym momencie przyda mi się mikser. Co to właściwie robi? Ano bierze cztery różne sygnały audio (np. radio, syntezator, mikrofon etc) i sumuje je do jednego sygnału, który następnie sobie możemy nagrać.
