@@ -12,7 +12,10 @@
         {% if page.cover %}
         <img src="{{page.cover}}" alt="{{page.title}}" />
         {% endif %}
-        {{ content }}
+        <div class="post-content">
+            {{ content }}
+
+        </div>
     </main>
    {% include footer.html %}
 </body>

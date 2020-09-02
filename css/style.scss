@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   
 }
 
@@ -75,7 +75,7 @@ h4 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   margin-bottom: 1.6rem;
 }
@@ -145,9 +145,22 @@ img.emoji {
   }
 }
 
+.pagination {
+  padding-bottom: $padding;
+}
+
+.next {
+  float: right;
+}
+
+.page_number {
+  display: block;
+}
+
 /* Page layout */
 
 .container {
+  width: 100%;
   max-width: 80rem;
   margin: 0 auto;
 }
@@ -189,6 +202,10 @@ img.emoji {
 
 .post-date {
   display: block;
+}
+
+.post-content {
+  padding: $padding;
 }
 
 .footer {
