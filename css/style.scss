@@ -14,14 +14,19 @@ $menu-fill: $pear;
 $link-color: $dark-pear;
 $padding: 1.6rem;
 
+$regular: 400;
+$bold: 700;
+$navigation: 300;
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: Helvetica, sans-serif;
-  font-size: 1.8rem;
-  
+  font-family: "Alegreya Sans", Helvetica, sans-serif;
+  font-size: 2rem;
+  font-kerning: normal;
+  font-weight: $regular;
 }
 
 .site {
@@ -53,9 +58,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: $bold;
   word-wrap: break-word;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 
 h1 {
@@ -67,7 +72,7 @@ h2 {
   font-size: 4rem;
 }
 h3 {
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 h4 {
@@ -75,9 +80,11 @@ h4 {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1.6rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Images & other media */
@@ -118,7 +125,7 @@ img.emoji {
       line-height: $height;
       font-size: $height;
       margin-bottom: 0.5rem;
-      font-weight: 500;
+      font-weight: $navigation;
       list-style: none;
       background-color: $pear;
       
@@ -206,6 +213,7 @@ img.emoji {
 
 .post-content {
   padding: $padding;
+  max-width: 70rem;
 }
 
 .footer {
