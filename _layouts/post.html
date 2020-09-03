@@ -10,8 +10,8 @@
     <main class="container">
         <h1 class="page-title"> {{ page.title }} </h1>
         {% if page.cover %}
-        {% endif %}
         <img src="{{page.cover}}" alt="{{page.title}}" />
+        {% endif %}
         <div class="post-content">
             <p>{{page.date | date: "%d/%m/%Y"}}</p>
             {{ content }}
