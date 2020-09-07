@@ -3,5 +3,6 @@
     <p>
         {{post.date | date: "%d/%m/%Y"}}
     </p>
-    {{content}}
+    {{post.content}}
+    <a href="{{ post.url }}"> Czytaj dalej</a>
 </section>
