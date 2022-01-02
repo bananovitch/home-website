@@ -1,6 +1,8 @@
 ---
 title: "Napisz coś po raz kolejny"
 layout: post
+categories: blog
+date: 2021-11-29
 ---
 
 Potrzeba pisania zdaje się że pojawia się u mnie periodycznie. Nie dodałem żadnego postu do tego bloga od jakiegoś czasu, ale jednak jak przyszedł czasy by przedłużyć hosting po prostu nie mogłem go usnąć. A sporo się w międzyczasie zmieniło. Zostałem ojcem. Nauczyłem się korzystać z terminalu Linuksa oraz pisać w edytorze vim bez patrzenia na klawiature. Ograniczyłem drastycznie korzystanie z mediów społecznościowych, z Facebooka zrezygnowałem niemal w stu procentach. 
