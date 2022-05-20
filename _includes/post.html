@@ -3,9 +3,6 @@
     <p>
         {{post.date | date: "%d/%m/%Y"}}
     </p>
-    {% if post.cover %}
-    <img src="{{post.cover}}" alt="{{post.title}}"/>
-    {% endif %}
     <p>{{post.excerpt}}</p>
-    <a href="{{ post.url }}"> Czytaj dalej</a>
+    <a href="{{ post.url }}">Czytaj dalej</a>
 </section>
