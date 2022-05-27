@@ -89,6 +89,14 @@ p {
   text-justify: inter-word;
 }
 
+/* code hightlighting */
+
+code {
+  padding: $padding;
+  font-size: 1.8rem; 
+  line-height: 1.2;
+}
+
 /* Images & other media */
 
 img {
