@@ -7,7 +7,7 @@ permalink: /about/
 
 ## TL;DR
 
-Cześć, jestem Piotrek. Pracuję jako programista. Potrafię pisać **aplikacje w Reakcie**, robię ładne wykresy w **D3.js** , umiem napisać też skrypt w **Pythonie** który zautomatyzuje coś monotonnego lub pobierze skądś dane.
+Cześć, jestem Piotrek. Pracuję jako programista. Potrafię pisać **aplikacje w Reakcie**, umiem napisać też skrypt w **Pythonie** który zautomatyzuje coś monotonnego lub pobierze skądś dane.
 
 Jeśli chodzi o moją bardziej ludzkie oblicze, pasjonuję się **muzyką** i ostatnio zajmuję się budowaniem różnych rzeczy które wydają dźwięki bądź nie.
 
@@ -18,7 +18,7 @@ Swego czasu byłem _bardzo_ aktywny w mediach społecznościowych, jednak od kil
 
 Miałem poczucie, że cena "darmowych" serwisów społecznościowych jest zbyt wysoka, by wrzucać tam wszystko. Nie znaczy to oczywiście, że z nich nie korzystam - jednak coraz mniej na nich udostepniam.
 
-Jednak chciałem mieć swoje miejsce w sieci. I tak przez przypadek trafiłem, za pośrednictwem wspaniałej [strony Charlotte Owens](https://www.sonniesedge.co.uk/) na pojęcie [indie web](https://indieweb.org/why).
+Jednak chciałem mieć swoje miejsce w sieci. I tak przez przypadek trafiłem, za pośrednictwem wspaniałej strony Charlotte Owens na pojęcie [indie web](https://indieweb.org/why).
 
 Otóż jest to sieć ludzi, którzy postanowili szukać alternatywy dla korporacyjnych mediów społecznościowych, i znaleźli ją w starych dobrych stronach internetowych. To rozwiązanie wydało się oczywiste i jednocześnie genialne. Udostepniam w ten sposób tylko to co chcę, i komu chcę. I tak powstała ta strona.
 
