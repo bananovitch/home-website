@@ -3,8 +3,6 @@ title: Organizacji kodu - "głupie" i "mądre" komponenty oraz ich testowanie.
 layout: post
 comments: true
 categories: code
-#cover: "/img/posts/2018/08/test-tubes.jpg"
-#alt: "test tubes"
 excerpt: "Dzielę komponenty na kontenery i komponenty prezentacyjne oraz piszę kilka testów automatycznych"
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Tworzymy syntezator!
 layout: post
-excerpt_separator: 
+excerpt: 'Początek bloga w ramach wydarzenia "daj się poznać"'
 comments: true
-categories: [code, blo]
+categories: [code, blog]
 #cover: "/img/posts/2017/synth-cover.jpg"
 #alt: "synthesizer"
 ---

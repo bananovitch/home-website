@@ -5,8 +5,6 @@ excerpt_separator:
 excerpt: "Tworzę aplikację do przeglądania danych o pracy sejmu."
 comments: true
 categories: code
-#cover: "/img/posts/2018/07/columns.jpg"
-#alt: "kolumny"
 ---
 
 <h2>Sejmowe API - aplikacja do przeglądania przemówień sejmowych.</h2>

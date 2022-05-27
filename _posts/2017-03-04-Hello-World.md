@@ -4,8 +4,6 @@ layout: post
 excerpt: "Na tym etapie zaczynam poważnie wątpić w sens całego przedsięwzięcia i rozważam porzucenie. A to dopiero pierwszy dzień!"
 comments: true
 categories: code
-#cover: "/img/posts/2017/code-cover.jpg"
-#alt: "code"
 ---
 
 
@@ -23,17 +21,12 @@ categories: code
 
 <p>Pobieram brakujące paczki ASIO SDK oraz VST3 SDK. Hm. czemu lista plików nie zgadza się z tym co jest w tutorialu? Zapewne dlatego, że tutorial był pisany kilka lat temu, a od tego czasu wiele mogło się zmienić. No nic, próbujemy dalej pomimo tego. Ponadto na oficjalnej stronie nie ma paczki z SDK VST2.. zapewne dlatego że ten standard również wyszedł z użycia. OK. </p>
 
-
-
-<p>Korzystając z magicznego skryptu w Pythonie tworzę swój pierwszy plugin, co działa mniej więcej jak zaawansowana wersja "kopiuj wklej".</p>
-
 <p>Jak na razie idę jak burza. Kolejnym krokiem będzie otworzenie pliku MyFirstPlugin.slp, który powinien załadować projekt do Visual Studio. Oczywiście nic takiego się nie dzieje. Pojawia się jednak informacja, żebym zainstalował rozszerzenie C# do mojego edytora, co też czynię. Oj, wygląda na to że nie mogę skompilować i odpalić projektu tak ja w tutorialu, który korzysta z normalnej werjsi Visual Studio.</p>
 
 <p>No tak, nie zainstalowałem Visual C++, co było napisane w dziale "What you'll need". :) Pobieram zatem darmowe Visual Studio Community Edition oraz je instaluję.</p>
 
 <h2>"Trochę" później</h2>
 
-![My helpful screenshot]({{ site.url }}/img/posts/fail.png)
 
 <p>Przekonałem się na własnej skórze, że to co inni mówią o instalacji Visual Studio to prawda. Zajęła mi ona dobre 6 godzin.</p>
 
@@ -48,11 +41,7 @@ categories: code
 
 <p>Szybkie googlanie wskazuje jednak, że wszystkie pliki potrzebne du zbudowania pluginu znajdują się w nowej wersji biblioteki. OK, przenoszę ję zgodnie z instrukcją, kopiuję, klikam "Build" i.... DZIAŁA!</p>
 
-![My helpful screenshot]({{ site.url }}/img/posts/HelloWorld.png)
-
 <p>Odpalam Abletona. Oto moim oczom ukazuje się przykładowy plugin. Hello World. COŚ WIDAĆ. Nareszcie. Po tych wszystkich zmaganiach, udało mi się stworzyć plugin. Widać pokrętełko, jakieś mierniki. Wszystko piękne i oldschoolowe. Odetchnąłem z ulgą. Nie jest to szczyt marzeń, właściwie nic nie napisałem samemu, ale skonfigurowałem środowisko i uruchomiłem cokolwiek. Całkiem sporo jak na jeden dzień!</p>
 
 <p>A teraz jak sprawić, żeby plugin wydał z siebie dźwięk?</p>
-
-
 

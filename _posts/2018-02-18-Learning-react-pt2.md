@@ -4,8 +4,6 @@ layout: post
 excerpt: "Zepsułem blog. I napisałem prostą aplikacji w React.js"
 comments: true
 categories: code
-#cover: "/img/posts/2018/02/react-2.jpg"
-#alt: "code"
 ---
 
 <p>Krok po kroku kontynuuję nieocenioną książkę Robina Wierucha. Miałem pewien moment zwątpienia związany pewnie z dużą ilością nowej wiedzy do przyswojenia, ale po nim nastąpiło pewnego rodzaju przejaśnienie. Mam wrażenie, że zaczynam trochę rozumieć, o co chodzi w tej bibliotece, i powoli elementy układanki zaczynają się układać w całość.</p>
@@ -41,8 +39,6 @@ const sum = (a, b) => a + b
 {% endhighlight %}
 
 <p>Mógłbym tak jeszcze długo zanudzać o tym, co mi się spodobało bądź nie. Zamiast tego, zaprezentują może po prostu swoje dotychczasowe dokonania, czyli prostą aplikację. Na razie nic się w niej specjalnego nie dzieje. Mamy listę bibliotek JavaScriptowych, z wyszukiwarką oraz przycisk który książkę usuwa z listy. Jest to jednak kawałek kodu napisany własnie przy użyciu React.js. W kolejnym rozdziale kursu zaczynają się dziać rzeczy ciekawe, gdyż listę tą zapełnimy danymi udostępnianymi przez API serwisu HackerNews. A to zaczyna już coś przypominać. </p>
-
-<p><a href="http://bananovitch.github.io/badgernews" target="_blank">Projekt można obejrzeć i przetestować tutaj.</a></p>
 
 <p>Na marginesie tego dodam jeszcze czemu tak długo z tym postem zeszło. Wynika to z tego, że "zepsułem" w międzyczasie swój blog, i spędziłem dosłownie kilka dni na jego naprawianiu. Przyczyna tego jest prosta, jak to mówią niektyrzy: "lepiej jest wrogiem dobrego".</p>
 
